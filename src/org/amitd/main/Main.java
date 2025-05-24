@@ -7,6 +7,7 @@ import java.util.Scanner;
 public class Main {
     public static Scanner scanner = new Scanner(System.in);
     public static User user;
+    public static Main main = new Main();
 
     public static void main (String [] args){
 
@@ -28,5 +29,14 @@ public class Main {
             System.out.println("Login Failed!");
         }
     }
+
+    public void initAdmin(){
+
+    }
+
+    public void initCustomer(){
+
+    }
+
 }
 
